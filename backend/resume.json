@@ -1,0 +1,62 @@
+{
+  "name": "ABHAY TIWARY",
+  "total_experience_years": null,
+  "skills": [
+    "Teamwork",
+    "Time Management",
+    "Problem-Solving",
+    "Effective Communication",
+    "Critical Thinking",
+    "C++",
+    "Python",
+    "SQL",
+    "Data Structures and Algorithms",
+    "OOP",
+    "DBMS",
+    "Git",
+    "GitHub",
+    "VS Code",
+    "MySQL",
+    "Oracle",
+    "Pandas",
+    "NumPy",
+    "Scikit-learn",
+    "Streamlit",
+    "Matplotlib",
+    "Catboost"
+  ],
+  "experiences": [
+    {
+      "company": null,
+      "role": "Project",
+      "duration": null,
+      "description": "Developed a machine learning model to predict Air Quality Index (AQI) using pollutant measurements. Built a Streamlit web application to display AQI predictions and relevant health guidance. Designed the prediction pipeline to handle missing pollutant readings, enabling predictions even when some sensor values are unavailable.",
+      "skills_used": [
+        "Python",
+        "Pandas",
+        "Scikit-learn",
+        "Streamlit"
+      ]
+    },
+    {
+      "company": null,
+      "role": "Project",
+      "duration": null,
+      "description": "Built a content-based movie recommendation system following a CampusX tutorial. Implemented movie similarity-based recommendations to suggest films based on a user's selected movie. Developed an interactive interface to display recommended movies.",
+      "skills_used": [
+        "Python",
+        "Pandas",
+        "Scikit-learn"
+      ]
+    }
+  ],
+  "education": [
+    "Class XII, Vyankatesh Jr. College, Nagpur, Percentage: 85%",
+    "B.Tech in Data Science and AI, IIIT Naya Raipur, CGPA: 9.0/10.0, 2025-2029"
+  ],
+  "projects": [
+    "AQI Prediction System (Live link: https://india-aqi-predictor.streamlit.app/, GitHub: https://github.com/Abhay-2-9/AQI_Predictor_webapp)",
+    "Movie Recommendation System (Live link: https://movie-recommender-system-appp.streamlit.app/, GitHub: https://github.com/Abhay-2-9/Movie-Recommender-System)"
+  ],
+  "certifications": []
+}

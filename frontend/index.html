@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Abhay's Resume Bot</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/dompurify@3.1.6/dist/purify.min.js"></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <canvas id="fish" aria-hidden="true"></canvas>
+  <div id="banner" hidden>Waking up the server, the first answer may take up to a minute.</div>
+
+  <div class="top">
+    <button id="hist-btn" type="button" aria-expanded="false">&#9719; History</button>
+    <div id="panel" hidden>
+      <button id="new-chat" type="button">+ New chat</button>
+      <div id="history" aria-label="Chat history"></div>
+      <p class="note">Saved only in this browser.</p>
+    </div>
+  </div>
+
+  <div class="stage empty" id="stage">
+    <h1>Ask about Abhay</h1>
+    <main id="messages" aria-live="polite" hidden></main>
+
+    <form id="form">
+      <textarea id="input" rows="1" maxlength="500" aria-label="Your question"
+        placeholder="Ask Abhay's bot anything..."></textarea>
+      <div class="bar">
+        <span class="hint">&crarr; send &middot; &#8679;&crarr; newline</span>
+        <button id="send" type="submit" aria-label="Send">&uarr;</button>
+        <button id="stop" type="button" aria-label="Stop" hidden>&#9632;</button>
+      </div>
+    </form>
+
+    <div id="chips">
+      <button type="button" data-q="Introduce Abhay">Introduce Abhay</button>
+      <button type="button" data-q="What are his skills?">His skills</button>
+      <button type="button" data-q="Tell me about his projects">His projects</button>
+      <button type="button" data-q="How can I contact him?">Contact him</button>
+    </div>
+  </div>
+</body>
+</html>
