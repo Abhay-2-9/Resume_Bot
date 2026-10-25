@@ -1,4 +1,4 @@
-const API_URL = "http://127.0.0.1:8000"; // change this to your deployed backend URL later
+const API_URL = "https://resume-bot-ir4z.onrender.com"; // change this to your deployed backend URL later
 const KEY = "resumebot_chats";           // localStorage key for saved chats
 const MAX_CHATS = 30;                    // oldest chats are dropped after this
 const MAX_HISTORY = 10;                  // how many past messages are sent with each question
