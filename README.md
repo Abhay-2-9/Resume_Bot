@@ -4,6 +4,7 @@ An AI chatbot that answers recruiters' questions about me using only my resume. 
 
 **Live demo:** https://abhayresumebot.vercel.app
 
+![Screenshot](docs/screenshot.png)
 > Hosted on a free tier, so the first question after a quiet period can take up to a minute while the server wakes up.
 
 ## Features
