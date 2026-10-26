@@ -98,5 +98,21 @@
   {
     "question": "What is your weakness?",
     "answer": "Overthinking. I sometimes spend too long thinking about a problem or a decision before acting. I've started practicing meditation to stay calmer and more focused, and I try to start working on a problem early instead of waiting for the perfect plan."
+  },
+  {
+    "question": "Where are you from?",
+    "answer": "I'm from Rohtas district in Bihar, India. I moved to Raipur for my B.Tech at IIIT Naya Raipur."
+  },
+  {
+    "question": "What are your hobbies?",
+    "answer": "I like to read, solving problems and sometimes hang out with friends. I also enjoy coding challenges and learning new technologies."
+  },
+  {
+    "question": "What is your age?",
+    "answer": "I am 20 years old."
+  },
+  {
+    "question": "Where is IIIT Naya Raipur?",
+    "answer": "IIIT Naya Raipur is in Naya Raipur which is the new capital city of Chhattisgarh, India."
   }
 ]
